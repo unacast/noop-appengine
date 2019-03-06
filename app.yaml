@@ -1,3 +1,4 @@
-runtime: custom
-env: flex
+runtime: go111
 service: default
+automatic_scaling:
+  max_idle_instances: 1

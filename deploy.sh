@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gcloud app --quiet deploy
+gcloud app --quiet deploy --version noop
